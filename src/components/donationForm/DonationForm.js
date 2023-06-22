@@ -1,4 +1,7 @@
 import react from 'react';
+
+import BoltIcon from '@mui/icons-material/Bolt';
+
 import './DonationForm.scss'
 
 const DonationForm = () => {
@@ -16,7 +19,9 @@ const DonationForm = () => {
                 <button className="donationForm__submit">Give</button>
             </div>
             <div className="donationForm__promotion">
-                <div className="donationForm__icon">L</div>
+                <div className="donationForm__icon">
+                    <BoltIcon sx={{ fontSize: 40 }} />
+                </div>
                 <div>
                     <div className='donationForm__promoTitle'>
                         This is a matchmaking campaign!
