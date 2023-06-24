@@ -1,0 +1,53 @@
+.navigation {
+    font-family: "Proxima Nova", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    // background-color: aqua;
+
+    &__logo {
+        align-self: center;
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+        // justify-content: space-around;
+    }
+    
+    &__leftSide {
+         display: flex;
+         padding: 0;
+    }
+
+    &__rightSide {
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+
+    &__item {
+        font-size: .75em;
+        font-weight: 600;
+        text-transform: uppercase;
+        list-style: none;
+        margin-left: 15px;
+
+        &--giveButton {
+            color: white;
+            background-color: #013365;
+            border-radius: 5px;
+            padding: 8px 12px;
+            border: none;
+            margin-left:70px;
+        }
+
+        &--firstChild {
+            margin-left: 0;
+        }
+
+    }
+
+
+}
+

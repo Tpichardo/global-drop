@@ -1,3 +1,4 @@
+import NavBar from './components/navBar/NavBar';
 import DonationForm from './components/donationForm/DonationForm';
 
 import './App.scss';
@@ -5,7 +6,7 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      Global Drop
+      <NavBar/>
       <DonationForm />
     </div>
   );
