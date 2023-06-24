@@ -1,53 +1,64 @@
-.navigation {
+.nav{
     font-family: "Proxima Nova", sans-serif;
     display: flex;
+    padding: 3px;
     justify-content: space-around;
-    // background-color: aqua;
+    letter-spacing: .9px;
 
     &__logo {
-        align-self: center;
+        margin-right: 5px;
     }
 
-    &__container {
+    &__items {
         display: flex;
+        margin: 0;
+        padding: 0;
         align-items: center;
-        // justify-content: space-around;
     }
     
     &__leftSide {
          display: flex;
-         padding: 0;
     }
 
     &__rightSide {
-        display: flex;
-        align-items: center;
-        padding: 0;
+        align-self: center;
+    }
+
+    &__donateButton {
+        color: white;
+        background-color: #013365;
+        border-radius: 5px;
+        border: none;
+        margin-right: 15px;
+        padding: 8px 12px;
+        position: relative;
+
+        &:after {
+            content: "";
+            display: block;
+            width: 1px;
+            height: 30px;
+            font-size: 19px;
+            position: absolute;
+            top: 50%;
+            right: -19px;
+            background-color: rgba(0,0,0,.1);
+            transform: translateY(-50%);
+        }
     }
 
 
-    &__item {
+    &__item, &__signIn {
         font-size: .75em;
         font-weight: 600;
         text-transform: uppercase;
-        list-style: none;
-        margin-left: 15px;
-
-        &--giveButton {
-            color: white;
-            background-color: #013365;
-            border-radius: 5px;
-            padding: 8px 12px;
-            border: none;
-            margin-left:70px;
-        }
-
-        &--firstChild {
-            margin-left: 0;
-        }
+        margin-left: 20px;
 
     }
 
+    &__logo, &__items, &__signIn {
+        list-style: none;
+    }
 
 }
 

@@ -4,22 +4,28 @@ import './NavBar.scss'
 
 const NavBar = () =>{
     return (
-        <div className='navigation'>
-            <div className='navigation__logo'>
-                ICON
+        <nav className='nav'>
+            <div className='nav__leftSide'>
+                <div className='nav__logoContainer'>
+                    <ul>
+                        <li className='nav__logo'>
+                            LOGO
+                        </li>
+                    </ul>
+                </div>
+                <ul className='nav__items'>
+                    <li className='nav__item nav__item--firstChild'>Why Water?</li>
+                    <li className='nav__item'>Our Impact</li>
+                    <li className='nav__item'>About Us</li>
+                </ul>
             </div>
-            <nav className='navigation__container'>
-                <ul className='navigation__leftSide'>
-                    <li className='navigation__item navigation__item--firstChild'>Why Water?</li>
-                    <li className='navigation__item'>Our Impact</li>
-                    <li className='navigation__item'>About Us</li>
+            <div className='nav__rightSide'>
+                <ul className='nav__items'>
+                    <button className='nav__donateButton'>Give</button>
+                    <li className='nav__signIn'>Sign In</li>
                 </ul>
-                <ul className='navigation__rightSide'>
-                    <button className='navigation__item navigation__item--giveButton'>Give</button>
-                    <li className='navigation__item'>Sign In</li>
-                </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     )
 }
 
