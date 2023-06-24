@@ -1,5 +1,5 @@
 import NavBar from './components/navBar/NavBar';
-import DonationForm from './components/donationForm/DonationForm';
+import Hero from './components/hero/Hero';
 
 import './App.scss';
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <DonationForm />
+      <Hero/>
     </div>
   );
 }
