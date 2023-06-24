@@ -1,12 +1,13 @@
 .nav{
-    font-family: "Proxima Nova", sans-serif;
+    font-family: 'IBM Plex Serif', serif;
     display: flex;
     padding: 3px;
     justify-content: space-around;
     letter-spacing: .9px;
 
     &__logo {
-        margin-right: 5px;
+        margin-right: 70px;
+        margin-top: 25px;
     }
 
     &__items {
@@ -49,9 +50,9 @@
 
 
     &__item, &__signIn {
-        font-size: .75em;
+        font-size: 1em;
         font-weight: 600;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         margin-left: 20px;
 
     }

@@ -1,5 +1,6 @@
 import react from 'react';
 
+import logo from '../../assets/logo.svg';
 import './NavBar.scss'
 
 const NavBar = () =>{
@@ -9,7 +10,7 @@ const NavBar = () =>{
                 <div className='nav__logoContainer'>
                     <ul>
                         <li className='nav__logo'>
-                            LOGO
+                            <img src={logo} alt="drop of water with the words global drop" />
                         </li>
                     </ul>
                 </div>
