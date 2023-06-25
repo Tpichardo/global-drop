@@ -4,6 +4,7 @@
     overflow: hidden;
 
     &__toggleButtons {
+        font-size: .9em;
         text-transform: uppercase;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -16,7 +17,7 @@
 
     &__giveOnceToggle {
         border: .5px solid black;
-        padding: 10px;
+        padding: 8px;
         border-radius: 5px 0 0 5px ;
 
          &--active {
@@ -26,7 +27,7 @@
 
     &__giveMonthlyToggle {
         border: .5px solid black;
-        padding: 10px;
+        padding: 8px;
         border-radius: 0 5px 5px 0;
     }
 
