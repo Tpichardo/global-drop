@@ -7,6 +7,10 @@ import './DonationForm.scss'
 const DonationForm = () => {
     return (
         <div className='donationForm'>
+            <div className='donationForm__toggleButtons'>
+                <div className='donationForm__giveOnceToggle donationForm__giveOnceToggle--active'>Give Once</div>
+                <div className='donationForm__giveMonthlyToggle'>Monthly</div>
+            </div>
             <div className="donationForm__title">
                 Choose an ammount to give
             </div>
