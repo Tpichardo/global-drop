@@ -31,7 +31,7 @@ const DonationForm = () => {
                         This is a matchmaking campaign!
                     </div>
                     <div className="donationForm__text">
-                        Every one-time gift will be matched by our longtime friends and supporters PCPartPicker.
+                        Every one-time gift will be matched by our longtime friends and supporters FeedForward.
                     </div>
                 </div>
             </div>
