@@ -16,14 +16,14 @@ const Home = () => {
                 <p className='home__sustainableInitiativesIntro'>We strongly believe in the power of locally-led sustainable initiatives. Through collaborative efforts with our local partners, we not only establish community-owned water projects but also foster comprehensive water, sanitation, and hygiene programs. This holistic approach ensures the  protection of everyone’s long-term health.</p>
             </div>
             <div className='home__ourWorkSvgs'>
-                <div className='home__numOfFundedProjects'>
-                    <img src={fundedProjectsImg} alt=""/>
-                </div>
                 <div className='home__numOfPeopleServed'>
-                    <img src={peopleServedImg} alt=""/>
+                    <img src={peopleServedImg} alt="" />
+                </div>
+                <div className='home__numOfFundedProjects'>
+                    <img src={fundedProjectsImg} alt="" />
                 </div>
                 <div className='home__numOfCountriesServed'>
-                    <img src={countriesServedImg} alt=""/>
+                    <img src={countriesServedImg} alt="" />
                 </div>
             </div>
         </div>

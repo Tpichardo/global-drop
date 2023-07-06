@@ -1,0 +1,41 @@
+.home {
+    // border: 2px solid red; 
+    padding: 60px 20px 20px 20px;
+
+    &__callToActionHeader {
+        font-family: Kazimir,
+                Georgia,
+                Cambria,
+                Times New Roman,
+                Times,
+                serif;
+        font-weight: 600;
+    }
+
+    &__title {
+        color: #79AABC;
+    }
+
+    &__title, &__sustainableInitiativesIntro {
+        font-family: Proxima Nova, sans-serif;
+    }
+
+    // &__sustainableInitiativesIntro {
+        
+    // }
+
+    &__ourWorkIntro {
+        max-width: 800px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    &__ourWorkSvgs {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+
+}
