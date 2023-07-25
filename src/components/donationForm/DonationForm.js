@@ -19,7 +19,7 @@ const DonationForm = () => {
                 <div className="donationForm__amount">$100 <span>USD</span></div>
                 <div className="donationForm__amount">$240 <span>USD</span></div>
                 <div className="donationForm__amount">$500 <span>USD</span></div>
-                <div className="donationForm__amount">Other amount</div>
+                <input type='text' className="donationForm__amount" placeholder='Other amount' />
                 <button className="donationForm__submit">Give</button>
             </div>
             <div className="donationForm__promotion">
