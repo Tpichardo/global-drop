@@ -4,6 +4,8 @@ import peopleServedImg from '../../assets/peopleServed.svg';
 import fundedProjectsImg from '../../assets/fundedProjects.svg';
 import countriesServedImg from '../../assets/countriesServed.svg';
 
+import './OurWorkSvgs.scss'
+
 const OurWorkSvgs = () => {
     return (
         <div className="ourWorkSvgs">
