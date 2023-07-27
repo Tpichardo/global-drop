@@ -21,6 +21,15 @@ const Home = () => {
                 <p>Finding water is a daily challenge for young girls, moms and sons. With a charitable donation today, you can lift this burden.</p>
                 <p>Providing a reliable and safe water source will unlock potential by returning time for study, work, and imagination.</p>
             </div>
+            <div>
+                <h4>Stay updated with stories from our team</h4>
+                <img></img>
+                {/* story title */}
+                {/* story catcher */}
+                {/* carousel? */}
+            </div>
+
+
         </div>
     )
 }
